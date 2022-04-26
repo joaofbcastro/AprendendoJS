@@ -17,7 +17,7 @@ body {
 
 .clock {
     position: relative;
-    width: 900px;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .clock h3.display {
-    width: 400px;
+    min-width: 360px;
     margin: 35px;
     color: #eee;
     box-shadow:
