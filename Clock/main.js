@@ -1,4 +1,4 @@
-setInterval(function () {
+function updateDisplay() {
     let dt = new Date
 
     const display = document.querySelector(".display");
@@ -16,4 +16,7 @@ setInterval(function () {
     }
 
     display.textContent = horsAtual
-}, 1000);
+};
+
+updateDisplay();
+setInterval(updateDisplay, 1000);
