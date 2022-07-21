@@ -1,13 +1,11 @@
 function updateDisplay() {
     let dt = new Date
 
-    const display = document.querySelector(".display");
+    var hours = dt.getHours();
+    var minutes = dt.getMinutes();
+    var seconds = dt.getSeconds();
 
-    var hora = dt.getHours();
-    var minuto = dt.getMinutes();
-    var segundo = dt.getSeconds();
-
-    horsAtual = zero(hora) + ":" + zero(minuto) + ":" + zero(segundo);
+    horsAtual = zero(hours) + ":" + zero(minutes) + ":" + zero(seconds);
 
     function zero(x) {
         if (x < 10) {
@@ -15,8 +13,9 @@ function updateDisplay() {
         } return x;
     }
 
+    const display = document.querySelector(".display");
     display.textContent = horsAtual
 };
 
 updateDisplay();
-setInterval(updateDisplay, 1000);
+setInterval(updateDisplay, 500);
