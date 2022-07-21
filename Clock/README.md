@@ -6,7 +6,9 @@
 
 ## O que é?
 
-Esse é um simples projeto onde eu utilizei de `new Date` para  criar um mostrador da hora atual.
+Esse é um simples projeto onde eu utilizei de `new Date` para criar um mostrador da hora atual.
+
+Tenho a pretenção de desenvolver um pouco mais esse projeto na medida em que den=senvolva as minhas habilidades na linguagem.
 
 ## Como acessar?
 
